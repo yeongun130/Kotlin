@@ -7,14 +7,14 @@ class Chapter02 {
     fun main() {
         // 비교연산자 ( >, <, >=, <=, ==, !=)
         // ex)
-        var result_1 = 1 > 2
-        println("결과 = ${result_1}") // 결과값은 false가 나온다.
-        var result_2 = 1 <= 2
-        println("결과 = ${result_2}") // 결과값은 true가 나온다.
-        var result_3 = 1 != 2
-        println("결과 = ${result_3}") // 결과값은 true가 나온다.
-        var result_4 = 1 == 2
-        println("결과 = ${result_4}") // 결과값은 false가 나온다.
+        var result1 = 1 > 2
+        println("결과 = ${result1}") // 결과값은 false가 나온다.
+        var result2 = 1 <= 2
+        println("결과 = ${result2}") // 결과값은 true가 나온다.
+        var result3 = 1 != 2
+        println("결과 = ${result3}") // 결과값은 true가 나온다.
+        var result4 = 1 == 2
+        println("결과 = ${result4}") // 결과값은 false가 나온다.
 
         // 문자형도 비교 가능
         // ex)
@@ -24,12 +24,12 @@ class Chapter02 {
          * 문자형을 비교 할 때는 대부분 ==, != 가 쓰인다. */
 
         // 논리 연산자 ( &&, ||, !(단항 연산자))
-        var logic_1 = result_2 && result_3   // &&는 둘 다 값이 true여야 true가 된다.
-        println("논리 연산 && 결과 = ${logic_1}") // 값은 true
-        var logic_2 = result_1 || result_2   // ||는 둘 중 하나만 값이 true이면 true가 된다.
-        println("논리 연산 || 결과 = ${logic_2}") // 값은 true
-        var logic_3 = !result_2    // !는 값이 true이면 false로 false이면 true로 바꿔준다.
-        println("논리 연산 ! 결과 = ${logic_3}")  // result_2의 값이 true이므로 값은 false
+        var logic1 = result_2 && result_3   // &&는 둘 다 값이 true여야 true가 된다.
+        println("논리 연산 && 결과 = ${logic1}") // 값은 true
+        var logic2 = result_1 || result_2   // ||는 둘 중 하나만 값이 true이면 true가 된다.
+        println("논리 연산 || 결과 = ${logic2}") // 값은 true
+        var logic3 = !result_2    // !는 값이 true이면 false로 false이면 true로 바꿔준다.
+        println("논리 연산 ! 결과 = ${logic3}")  // result_2의 값이 true이므로 값은 false
 
         // if
         // ex)
