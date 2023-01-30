@@ -29,7 +29,7 @@ class Chapter03 {
         println("2번째 index의 값 = ${ mutableList.get(2) }")
 
         // 맵( key,value )
-        var mutableMap = mutableMapOf<String,String>() // Generic에 2개의 타입을 넣어줘야됨
+        var mutableMap = mutableMapOf<String,String>() // Generic에 2개의 타입을 넣어줘야된다.
         mutableMap.put("android", "kotlin") // key에는 변수이름, value에는 값
 
         println("android의 값 = ${ mutableMap.get("android") }") // get(key)를 하게 되면 key의 값이 나온다.(android라는 key의 값은 kotlin이므로 kotlin이 출력됨)
