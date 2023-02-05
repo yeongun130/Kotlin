@@ -38,7 +38,7 @@ class Chapter01 {
 
         val VALVALUE:Boolean = true
         // VALVALUE = false(오류)
-        /* val은 상수형으로 지정된 값을 다시 변경 할 수 없다.
+        /* val은 상수형으로 지정된 값을 다시 변경 할 수 없고
            상수형을 쓸 때 변수는 대문자로 쓰는 것이 좋다. */
 
         // 변수 표기법(변수 이름에 단어가 2개이상 들어갈 때)
