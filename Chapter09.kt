@@ -11,6 +11,7 @@ class Chapter09 {
     // run과 let은 내가 실행한 변수와 상관 없이 마지막 값이 반환된다.
     // apply와 also는 마지막 코드에 상관 없이 내가 스코프 함수로 돌린 변수의 값을 그대로 반환한다.
     // with
+    
     fun studyRun() {
         val phones = mutableListOf("010-1234-5678","010-3456-8978","010-4587-1345")
         val list = mutableListOf(1,2,3,4,5,6,7,8,9)
@@ -61,4 +62,4 @@ data class person (
     var name:String = "",
     var phone:String = "",
     var age:Int = 21
-    )
+)
