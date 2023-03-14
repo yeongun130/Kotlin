@@ -6,7 +6,7 @@ class Chapter01 {
         var variable:String = "홍길동"
 
         // 코틀린의 기본타입
-        // 실수형
+        // 실수형 
         var doubleValue:Double = 33.5
         var floatValue:Float = 123.5F   /* 모든 실수형을 Double로 인식하기 때문에 Float를 쓰기 위해서는
                                          Float 값 뒤에 f,F를 붙여주므로써 Double과 Float를 구분 할 수 있다 */
