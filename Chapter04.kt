@@ -4,7 +4,7 @@ class Chapter04 {
 
     fun main() {
 
-        var intArray = intArrayOf(0,10,20,30,40)
+        var intArray = intArrayOf(0,10,20,30,40) 
         // 반복문
         // for
         // 일반적으로 몇 번의 횟수를 반복하는 형태
