@@ -5,7 +5,7 @@ class Chapter05 {
     /* 함수를 사용하는 용도 >> 코드를 분류하기 위해서 */
 
     fun main() {
-        functionName()
+        functionName() 
         functionParam("값", 153)
 
         var pi = getPi()
