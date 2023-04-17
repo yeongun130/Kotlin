@@ -8,7 +8,7 @@ class Chapter05 {
         functionName() 
         functionParam("값", 153)
 
-        var pi = getPi()
+        var pi = getPi() 
         println("pi = ${pi}")
     }
     // 기본 함
