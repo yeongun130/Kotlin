@@ -14,7 +14,7 @@ class Chapter09 {
     
     fun studyRun() {
         val phones = mutableListOf("010-1234-5678","010-3456-8978","010-4587-1345")
-        val list = mutableListOf(1,2,3,4,5,6,7,8,9)
+        val list = mutableListOf(1,2,3,4,5,6,7,8,9) 
         val names = mutableListOf("Scott","Kelly","Michael")
 
         val seoulPeople = SeoulPeople()
