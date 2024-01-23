@@ -9,7 +9,7 @@ class Chapter09 {
     // 스코프 함수
     // run, let, apply, also
     // run과 let은 내가 실행한 변수와 상관 없이 마지막 값이 반환된다.
-    // apply와 also는 마지막 코드에 상관 없이 내가 스코프 함수로 돌린 변수의 값을 그대로 반환한다.
+    // apply와 also는 마지막 코드에 상관 없이 스코프 함수로 돌린 변수의 값을 그대로 반환한다.
     // with
     
     fun studyRun() {
